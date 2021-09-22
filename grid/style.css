@@ -1,0 +1,84 @@
+body {
+background: grey;
+
+}
+
+
+
+.classic {
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+
+.grid {
+
+display: grid;
+grid-template-columns: 1fr 500px 1fr ;
+grid-template-rows: 100px 200px 100px;
+
+
+
+}
+
+
+
+/* // responsive   1ere maniere */
+
+.article {
+
+width: 50%;
+width: clamp(200px, 50%, 600px);
+
+}
+
+
+
+/*  // responsive 2eme maniere
+
+@media only screen and (min-width: 600px) {
+
+.article {
+
+    width: 200px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .article {
+    
+        width: 800px;
+    }
+    
+    
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

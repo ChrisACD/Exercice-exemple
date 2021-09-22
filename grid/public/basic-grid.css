@@ -1,0 +1,36 @@
+.basic-grid {
+
+display: grid;
+gap: 1rem;
+
+/* 1  longue*/
+/* grid-template-columns: 1fr,1fr,1fr,1fr,1fr,1fr; */
+
+
+
+/* 2 methode courte */
+
+/* grid-template-columns: repeat(6, 1fr); */
+
+/* 3 methode */
+/* grid-template-columns: repeat(6, minmax(240px, 1fr)); */
+
+
+/* 4methode */
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+/* une autre possibilité */
+/* grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
